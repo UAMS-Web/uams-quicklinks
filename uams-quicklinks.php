@@ -20,49 +20,49 @@ function uamsweb_check_menus() {
   wp_update_nav_menu_item ( $menu_id, 0, array (
    'menu-item-title' => __('GUS'),
    'menu-item-url' => 'http://gus.uams.edu/',
-   'menu-item-classes' => 'i-Student big',
+   'menu-item-classes' => 'i-gus big',
    'menu-item-status' => 'publish' ,
    'menu-item-target' => '_blank') );
 
   wp_update_nav_menu_item ( $menu_id, 0, array (
    'menu-item-title' => __('Library'),
    'menu-item-url' => 'http://library.uams.edu/',
-   'menu-item-classes' => 'ic-book big',
+   'menu-item-classes' => 'i-books-1 big',
    'menu-item-status' => 'publish' ,
    'menu-item-target' => '_blank') );
 
   wp_update_nav_menu_item ( $menu_id, 0, array (
    'menu-item-title' => __('UAMS Bookstore'),
    'menu-item-url' => 'http://library.uams.edu/library-services/bookstore/',
-   'menu-item-classes' => 'i-Globe big',
+   'menu-item-classes' => 'i-cart big',
    'menu-item-status' => 'publish' ,
    'menu-item-target' => '_blank') );
 
   wp_update_nav_menu_item ( $menu_id, 0, array (
    'menu-item-title' => __('Webmail'),
    'menu-item-url' => 'http://webmail.uams.edu/',
-   'menu-item-classes' => 'ic-mail',
+   'menu-item-classes' => 'i-mail',
    'menu-item-status' => 'publish' ,
    'menu-item-target' => '_blank') );
 
   wp_update_nav_menu_item ( $menu_id, 0, array (
    'menu-item-title' => __('Employee Self Service'),
    'menu-item-url' => 'https://enterprise.uams.edu/irj/portal',
-   'menu-item-classes' => 'i-Name-Plate-Female-1',
+   'menu-item-classes' => 'i-id-employee-female',
    'menu-item-status' => 'publish' ,
    'menu-item-target' => '_blank') );
 
   wp_update_nav_menu_item ( $menu_id, 0, array (
    'menu-item-title' => __('Computing / IT'),
    'menu-item-url' => 'http://www.uams.edu/IT/',
-   'menu-item-classes' => 'ic-computer',
+   'menu-item-classes' => 'i-screen-1',
    'menu-item-status' => 'publish' ,
    'menu-item-target' => '_blank') );
 
   wp_update_nav_menu_item ( $menu_id, 0, array (
    'menu-item-title' => __('Intranet'),
    'menu-item-url' => 'http://inside.uams.edu/',
-   'menu-item-classes' => 'i-Networking-2',
+   'menu-item-classes' => 'i-information',
    'menu-item-status' => 'publish' ,
    'menu-item-target' => '_blank') );
 
