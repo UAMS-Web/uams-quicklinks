@@ -80,6 +80,13 @@ function uamsweb_check_menus() {
    'menu-item-status' => 'publish' ,
    'menu-item-target' => '_blank') );
 
+//  wp_update_nav_menu_item ( $menu_id, 0, array (
+//   'menu-item-title' => __(''), //Text Title
+//   'menu-item-url' => '', // URL
+//   'menu-item-classes' => '', // CSS classes
+//   'menu-item-status' => 'publish' , //Status
+//   'menu-item-target' => '_blank') ); //Open in new window
+
 
   // Lower case theme_name
   $theme = strtolower ( str_replace ( ' ', '_', wp_get_theme() ) );
