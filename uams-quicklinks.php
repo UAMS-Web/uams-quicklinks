@@ -24,6 +24,13 @@ function uamsweb_check_menus() {
    'menu-item-status' => 'publish' ,
    'menu-item-target' => '_blank') );
 
+    wp_update_nav_menu_item ( $menu_id, 0, array (
+   'menu-item-title' => __('Profiles'),
+   'menu-item-url' => 'https://uams-triprofiles.uams.edu/profiles/search/',
+   'menu-item-classes' => 'i-molecule big',
+   'menu-item-status' => 'publish' ,
+   'menu-item-target' => '_blank') );
+
   wp_update_nav_menu_item ( $menu_id, 0, array (
    'menu-item-title' => __('Library'),
    'menu-item-url' => 'http://library.uams.edu/',
